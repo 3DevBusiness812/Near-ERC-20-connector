@@ -1,0 +1,31 @@
+{
+  "name": "enear",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage",
+    "test": "hardhat test"
+  },
+  "author": "Vincent",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-solhint": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4",
+    "chai": "^4.2.0",
+    "commander": "^7.2.0",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.5",
+    "hardhat": "^2.8",
+    "hardhat-gas-reporter": "^1.0.4",
+    "prompt-sync": "^4.2.0",
+    "rainbow-bridge-sol": "https://gitpkg.now.sh/aurora-is-near/rainbow-bridge/contracts/eth?99586f0940baeaf009822525d149af79945d9206",
+    "rainbow-bridge-lib": "https://github.com/near/rainbow-bridge-lib",
+    "solidity-coverage": "^0.7.14"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.2"
+  }
+}
